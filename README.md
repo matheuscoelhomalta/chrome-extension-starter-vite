@@ -18,7 +18,7 @@ This is a template for building Chrome extensions using Vite, React, and TypeScr
 
 - Node.js 18.x or later (recommended)
 - npm 9.x or later
-- Google Chrome browser
+- Chromium browser
 
 ## Getting Started
 
@@ -41,8 +41,8 @@ This is a template for building Chrome extensions using Vite, React, and TypeScr
    npm run build
    ```
 
-4. Load the extension in Chrome:
-   - Open Chrome and navigate to `chrome://extensions/`
+4. Load the extension in Browser:
+   - Open Browser and navigate to `chrome://extensions/`
    - Enable "Developer mode" in the top right corner
    - Click "Load unpacked" and select the `dist` folder from your project directory
 
