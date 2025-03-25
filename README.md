@@ -10,14 +10,14 @@ This is a template for building Chrome extensions using Vite, React, and TypeScr
 - TypeScript support for type safety
 - ESLint for code quality and consistency
 - Vite for fast builds and Hot Module Replacement (HMR)
-- Built-in support for React 18
+- Built-in support for React 19
 - Full TypeScript configuration
 - Tailwind CSS for utility-first styling
 
 ## Prerequisites
 
-- Node.js 16.x or later
-- npm 7.x or later
+- Node.js 18.x or later (recommended)
+- npm 9.x or later
 - Google Chrome browser
 
 ## Getting Started
@@ -25,8 +25,8 @@ This is a template for building Chrome extensions using Vite, React, and TypeScr
 1. Clone this repository:
 
    ```bash
-   git clone [repository-url]
-   cd chrome-extension-template
+   git clone https://github.com/matheuscoelhomalta/chrome-extension-starter-vite.git
+   cd chrome-extension-starter-vite
    ```
 
 2. Install dependencies:
@@ -99,9 +99,10 @@ src/
 ## Notes
 
 - Content script matching can be configured in `manifest.ts` to target specific sites instead of `<all_urls>`
-- Tailwind CSS is included by default but can be removed if not needed
-- The project uses TypeScript for better development experience and type safety
+- Tailwind CSS 4.x is included by default but can be removed if not needed
+- The project uses TypeScript 5.7+ for better development experience and type safety
 - Hot Module Replacement (HMR) is enabled for faster development
+- Using latest Vite 6.x for optimal build performance
 
 ## Contributing
 
